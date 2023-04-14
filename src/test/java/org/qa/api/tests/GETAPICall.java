@@ -66,6 +66,8 @@ public class GETAPICall {
         System.out.println("The Status text is: "+statusResponseText);
         Assert.assertEquals(statusResponseText,"OK");
 
+
+
         //Retrieving the Response Body
         ObjectMapper objectMapper = new ObjectMapper();
         JsonNode jsonResponse = objectMapper.readTree(apiResponse.body());

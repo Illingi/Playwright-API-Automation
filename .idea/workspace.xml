@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="060effcc-b78d-4783-a2b7-857667e4d130" name="Default Changelist" comment="" />
+    <list default="true" id="060effcc-b78d-4783-a2b7-857667e4d130" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/qa/api/tests/DisposeAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/qa/api/tests/GETAPICall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/qa/api/tests/GETAPICall.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,13 +19,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/qa/api/tests/GETAPICall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/qa/api/tests/DisposeAPITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1700#1701#0" expanded="true" />
+                <element signature="e#1734#1735#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,6 +62,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/qa/api/tests/GETAPICall.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/qa/api/tests/DisposeAPITest.java" />
       </list>
     </option>
   </component>
@@ -71,10 +90,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="99" />
-    <option name="y" value="18" />
-    <option name="width" value="1401" />
-    <option name="height" value="822" />
+    <option name="x" value="-15" />
+    <option name="width" value="3223" />
+    <option name="height" value="1713" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -90,6 +108,32 @@
               <item name="PlaywrightAPIAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Playwright API Automation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PlaywrightAPIAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Playwright API Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaywrightAPIAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Playwright API Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaywrightAPIAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Playwright API Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlaywrightAPIAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Playwright API Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -98,10 +142,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -115,7 +160,78 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GETAPICall">
+  <component name="RunManager" selected="TestNG.DisposeAPITest">
+    <configuration name="DisposeAPITest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright API Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qa.api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.qa.api.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.qa.api.tests.DisposeAPITest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisposeAPITest.DisposeContextTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright API Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qa.api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.qa.api.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.qa.api.tests.DisposeAPITest" />
+      <option name="METHOD_NAME" value="DisposeContextTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisposeAPITest.DisposeResponseTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright API Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qa.api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.qa.api.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.qa.api.tests.DisposeAPITest" />
+      <option name="METHOD_NAME" value="DisposeResponseTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisposeAPITest.DisposeResponseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Playwright API Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qa.api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.qa.api.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.qa.api.tests.DisposeAPITest" />
+      <option name="METHOD_NAME" value="DisposeResponseTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GETAPICall" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Playwright API Automation" />
       <extension name="coverage">
@@ -133,28 +249,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GETAPICall.getUsersAPITest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Playwright API Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.qa.api.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.qa.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.qa.api.tests.GETAPICall" />
-      <option name="METHOD_NAME" value="getUsersAPITest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DisposeAPITest" />
+        <item itemvalue="TestNG.DisposeAPITest.DisposeResponseTest" />
+        <item itemvalue="TestNG.DisposeAPITest.DisposeContextTest" />
+        <item itemvalue="TestNG.DisposeAPITest.DisposeResponseTest (1)" />
         <item itemvalue="TestNG.GETAPICall" />
-        <item itemvalue="TestNG.GETAPICall.getUsersAPITest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,20 +273,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GETAPICall_getUsersAPITest - 2023.04.11 at 18h 44m 26s.xml">
-      <configuration name="GETAPICall.getUsersAPITest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GETAPICall - 2023.04.11 at 22h 23m 44s.xml">
-      <configuration name="GETAPICall" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GETAPICall_getUsersAPITest - 2023.04.11 at 22h 48m 33s.xml">
-      <configuration name="GETAPICall.getUsersAPITest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GETAPICall - 2023.04.11 at 23h 20m 21s.xml">
       <configuration name="GETAPICall" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GETAPICall - 2023.04.11 at 23h 22m 33s.xml">
       <configuration name="GETAPICall" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GETAPICall_getUsersAPITest_(1) - 2023.04.14 at 01h 57m 27s.xml">
+      <configuration name="GETAPICall.getUsersAPITest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GETAPICall - 2023.04.14 at 01h 57m 57s.xml">
+      <configuration name="GETAPICall" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DisposeAPITest_DisposeResponseTest - 2023.04.14 at 02h 22m 19s.xml">
+      <configuration name="DisposeAPITest.DisposeResponseTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DisposeAPITest_DisposeResponseTest - 2023.04.14 at 02h 26m 07s.xml">
+      <configuration name="DisposeAPITest.DisposeResponseTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DisposeAPITest_DisposeResponseTest - 2023.04.14 at 02h 31m 23s.xml">
+      <configuration name="DisposeAPITest.DisposeResponseTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DisposeAPITest_DisposeContextTest - 2023.04.14 at 23h 52m 31s.xml">
+      <configuration name="DisposeAPITest.DisposeContextTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DisposeAPITest_DisposeResponseTest - 2023.04.14 at 23h 53m 35s.xml">
+      <configuration name="DisposeAPITest.DisposeResponseTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DisposeAPITest - 2023.04.14 at 23h 53m 50s.xml">
+      <configuration name="DisposeAPITest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -198,9 +314,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4378029" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2283992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -209,15 +325,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3809524" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329806" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.329806" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20714286" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.329806" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -228,6 +344,20 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" x="0" y="0" width="273" height="492" id="Documentation" order="8" side_tool="true" weight="0.32956383" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/qa/api/tests/DisposeAPITest.java</url>
+          <line>24</line>
+          <properties class="org.qa.api.tests.DisposeAPITest" method="DisposeResponseTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Playwright API Automation.iml">
@@ -249,10 +379,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/qa/api/tests/GETAPICall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/qa/api/tests/DisposeAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1700#1701#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
           </folding>
         </state>
       </provider>
